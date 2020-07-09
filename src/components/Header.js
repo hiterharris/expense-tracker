@@ -1,9 +1,12 @@
-import React from 'react';
+import React from "react";
+import '../App.css';
 
 const Header = () => {
-    return (
-        <h2>Expense Tracker</h2>
-    );
-}
+  return (
+    <div className="Header">
+      <h2>Header</h2>
+    </div>
+  );
+};
 
 export default Header;

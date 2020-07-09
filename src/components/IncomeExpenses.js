@@ -17,7 +17,6 @@ const IncomeExpenses = () => {
   const income = positive.toFixed(2);
   const expenses = negative.toFixed(2);
 
-
   return (
     <div>
       <div className="inc-exp-container">
@@ -27,7 +26,7 @@ const IncomeExpenses = () => {
         </div>
         <div>
           <h4>Expense</h4>
-          <p className="money minus">-${expenses}</p>
+          <p className="money minus">-${Math.abs(expenses)}</p>
         </div>
       </div>
     </div>

@@ -13,7 +13,7 @@ const IncomeExpenses = () => {
       negative += transactions[i].amount;
     }
   }
-
+  
   const income = positive.toFixed(2);
   const expenses = negative.toFixed(2);
 
